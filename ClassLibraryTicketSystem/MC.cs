@@ -1,11 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ClassLibraryTicketSystem
 {
     /// <summary>
-    /// The Car class has two properties: Licenseplate, Date. It has two methods: Price(), VehicleType(). 
+    /// The MC class has two properties: Licenseplate, Date. It has two methods: Price(), VehicleType(). 
     /// </summary>
-    public class Car
+    public class MC
     {
         public string Licenseplate { get; set; }
         public DateTime Date { get; set; }
@@ -15,7 +19,7 @@ namespace ClassLibraryTicketSystem
         /// </summary>
         /// <param name="licenseplate">Initializes Licenseplate property</param>
         /// <param name="date">Initializes Date property</param>
-        public Car(string licenseplate, DateTime date)
+        public MC(string licenseplate, DateTime date)
         {
             Licenseplate = licenseplate;
             Date = date;
@@ -24,26 +28,26 @@ namespace ClassLibraryTicketSystem
         /// <summary>
         /// Empty constructor
         /// </summary>
-        public Car()
+        public MC()
         {
         }
 
         /// <summary>
-        /// Price() method returns a fixed price 240
+        /// Price() method returns a fixed price 125
         /// </summary>
         /// <returns>Double</returns>
         public double Price()
         {
-            return 240;
+            return 125;
         }
 
         /// <summary>
-        /// VehicleType() method returns "Car"
+        /// VehicleType() method returns "MC"
         /// </summary>
         /// <returns>String</returns>
         public string VehicleType()
         {
-            return "Car";
+            return "MC";
         }
 
     }
