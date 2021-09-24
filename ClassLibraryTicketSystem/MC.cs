@@ -7,13 +7,10 @@ using System.Threading.Tasks;
 namespace ClassLibraryTicketSystem
 {
     /// <summary>
-    /// The MC class has two properties: Licenseplate, Date. It has two methods: Price(), VehicleType(). 
+    /// The MC class inherites from VehicleBaseClass 
     /// </summary>
-    public class MC
-    {
-        public string Licenseplate { get; set; }
-        public DateTime Date { get; set; }
-
+    public class MC : VehicleBaseClass
+    {  
         /// <summary>
         /// Constructor to initialize all the properties
         /// </summary>
@@ -36,7 +33,7 @@ namespace ClassLibraryTicketSystem
         /// Price() method returns a fixed price 125
         /// </summary>
         /// <returns>Double</returns>
-        public double Price()
+        public override double Price()
         {
             return 125;
         }
@@ -45,7 +42,7 @@ namespace ClassLibraryTicketSystem
         /// VehicleType() method returns "MC"
         /// </summary>
         /// <returns>String</returns>
-        public string VehicleType()
+        public override string VehicleType()
         {
             return "MC";
         }

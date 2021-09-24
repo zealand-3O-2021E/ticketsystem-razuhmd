@@ -5,11 +5,8 @@ namespace ClassLibraryTicketSystem
     /// <summary>
     /// The Car class has two properties: Licenseplate, Date. It has two methods: Price(), VehicleType(). 
     /// </summary>
-    public class Car
-    {
-        public string Licenseplate { get; set; }
-        public DateTime Date { get; set; }
-
+    public class Car : VehicleBaseClass
+    {        
         /// <summary>
         /// Constructor to initialize all the properties
         /// </summary>
@@ -32,7 +29,7 @@ namespace ClassLibraryTicketSystem
         /// Price() method returns a fixed price 240
         /// </summary>
         /// <returns>Double</returns>
-        public double Price()
+        public override double Price()
         {
             return 240;
         }
@@ -41,7 +38,7 @@ namespace ClassLibraryTicketSystem
         /// VehicleType() method returns "Car"
         /// </summary>
         /// <returns>String</returns>
-        public string VehicleType()
+        public override string VehicleType()
         {
             return "Car";
         }
