@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryTicketSystem</name>
+    </assembly>
+    <members>
+        <member name="M:ClassLibraryTicketSystem.Brobizz.#ctor(System.Boolean)">
+            <summary>
+            Constructor to initialize the property
+            </summary>
+            <param name="myBrobizz"></param>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Brobizz.#ctor">
+            <summary>
+            Empty Constructor
+            </summary>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.Car">
+            <summary>
+            The Car class inherites from VehicleBaseClass 
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.#ctor(System.String,System.DateTime)">
+            <summary>
+            Constructor to initialize all the properties
+            </summary>
+            <param name="licenseplate">Initializes Licenseplate property</param>
+            <param name="date">Initializes Date property</param>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.#ctor">
+            <summary>
+            Empty constructor
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.Price(ClassLibraryTicketSystem.Brobizz)">
+            <summary>
+            Price() method returns a fixed price 240. Discount applies for Brobizz
+            </summary>
+            <returns>Double</returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.VehicleType">
+            <summary>
+            VehicleType() method returns "Car"
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.LicenseplateFunctionality">
+            <summary>
+            This class checks the length of the numberplate. If it is longer than 7 character, it throws ArgumentException
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.LicenseplateFunctionality.CheckAndCreateCar(System.String,System.DateTime)">
+            <summary>
+            Checks licenseplate length and creates Car
+            </summary>
+            <param name="licenseplate"></param>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.LicenseplateFunctionality.CheckAndCreateMC(System.String,System.DateTime)">
+            <summary>
+            Checks licenseplate length and creates MC
+            </summary>
+            <param name="licenseplate"></param>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.MC">
+            <summary>
+            The MC class inherites from VehicleBaseClass 
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.#ctor(System.String,System.DateTime)">
+            <summary>
+            Constructor to initialize all the properties
+            </summary>
+            <param name="licenseplate">Initializes Licenseplate property</param>
+            <param name="date">Initializes Date property</param>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.#ctor">
+            <summary>
+            Empty constructor
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.Price(ClassLibraryTicketSystem.Brobizz)">
+            <summary>
+            Price() method returns a fixed price 125. Discount applies for Brobizz
+            </summary>
+            <returns>Double</returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.VehicleType">
+            <summary>
+            VehicleType() method returns "MC"
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.VehicleBaseClass">
+            <summary>
+            VehicleBaseClass is an abstract class. It has two properties: Licenseplate, Date. It has two abstract methods: Price(), VehicleType().
+            </summary>
+        </member>
+    </members>
+</doc>
