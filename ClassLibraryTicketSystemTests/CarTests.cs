@@ -38,5 +38,6 @@ namespace ClassLibraryTicketSystem.Tests
             Assert.AreEqual("Car", result);
 
         }
+              
     }
 }

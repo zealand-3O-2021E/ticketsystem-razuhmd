@@ -3,7 +3,7 @@
 namespace ClassLibraryTicketSystem
 {
     /// <summary>
-    /// The Car class has two properties: Licenseplate, Date. It has two methods: Price(), VehicleType(). 
+    /// The Car class inherites from VehicleBaseClass 
     /// </summary>
     public class Car : VehicleBaseClass
     {        
@@ -12,16 +12,16 @@ namespace ClassLibraryTicketSystem
         /// </summary>
         /// <param name="licenseplate">Initializes Licenseplate property</param>
         /// <param name="date">Initializes Date property</param>
-        public Car(string licenseplate, DateTime date)
-        {
+        public Car(string licenseplate, DateTime date) : base(licenseplate, date)
+        {            
             Licenseplate = licenseplate;
-            Date = date;
+            Date = date;           
         }
 
         /// <summary>
         /// Empty constructor
         /// </summary>
-        public Car()
+        public Car() : base()
         {
         }
 

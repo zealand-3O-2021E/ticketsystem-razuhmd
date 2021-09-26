@@ -16,7 +16,7 @@ namespace ClassLibraryTicketSystem
         /// </summary>
         /// <param name="licenseplate">Initializes Licenseplate property</param>
         /// <param name="date">Initializes Date property</param>
-        public MC(string licenseplate, DateTime date)
+        public MC(string licenseplate, DateTime date) : base(licenseplate, date)
         {
             Licenseplate = licenseplate;
             Date = date;

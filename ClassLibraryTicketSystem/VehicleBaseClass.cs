@@ -12,7 +12,18 @@ namespace ClassLibraryTicketSystem
     public abstract class VehicleBaseClass
     {
         public string Licenseplate { get; set; }
+
         public DateTime Date { get; set; }
+
+        protected VehicleBaseClass(string licenseplate, DateTime date)
+        {
+            Licenseplate = licenseplate;
+            Date = date;
+        }
+
+        protected VehicleBaseClass()
+        {
+        }
 
         public abstract double Price();
 
