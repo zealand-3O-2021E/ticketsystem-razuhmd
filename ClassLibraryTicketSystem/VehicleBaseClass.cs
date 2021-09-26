@@ -25,7 +25,7 @@ namespace ClassLibraryTicketSystem
         {
         }
 
-        public abstract double Price();
+        public abstract double Price(Brobizz brobizz);
 
         public abstract string VehicleType();
 

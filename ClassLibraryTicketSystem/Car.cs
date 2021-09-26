@@ -29,8 +29,13 @@ namespace ClassLibraryTicketSystem
         /// Price() method returns a fixed price 240
         /// </summary>
         /// <returns>Double</returns>
-        public override double Price()
+        public override double Price(Brobizz brobizz)
         {
+            if(brobizz.MyBrobizz == true)
+            {
+                return 240 - 240 * .05;
+            }
+
             return 240;
         }
 
