@@ -32,6 +32,9 @@ namespace ClassLibraryTicketSystem.Tests
 
         }
 
+        /// <summary>
+        /// Method to test the type of the vehicle
+        /// </summary>
         [TestMethod()]
         public void VehicleTypeTest()
         {

@@ -30,7 +30,7 @@ namespace ClassLibraryTicketSystem
         }
 
         /// <summary>
-        /// Price() method returns a fixed price 125
+        /// Price() method returns a fixed price 125. Discount applies for Brobizz
         /// </summary>
         /// <returns>Double</returns>
         public override double Price(Brobizz brobizz)
