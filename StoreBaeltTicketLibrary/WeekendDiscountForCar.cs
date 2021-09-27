@@ -29,7 +29,7 @@ namespace StoreBaeltTicketLibrary
         /// <summary>
         /// Method to return the price after weekend discount and Brobizz discount
         /// </summary>
-        /// <returns></returns>
+        /// <returns>double</returns>
         public double GetWeekendBrobizzPrice()
         {
             Car car = new Car();
@@ -46,7 +46,7 @@ namespace StoreBaeltTicketLibrary
         /// <summary>
         /// Method to return the price after only weekend discount
         /// </summary>
-        /// <returns></returns>
+        /// <returns>double</returns>
         public double GetWeekendNoBrobizzPrice()
         {
             Car car = new Car();

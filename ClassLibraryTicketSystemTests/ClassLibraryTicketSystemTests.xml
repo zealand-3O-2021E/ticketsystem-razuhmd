@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryTicketSystemTests</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibraryTicketSystem.Tests.CarTests">
+            <summary>
+            Tests for Car class methods
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.CarTests.PriceTest">
+            <summary>
+            Test with no Brobizz
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.CarTests.VehicleTypeTest">
+            <summary>
+            Method to test the type of the vehicle
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.CarTests.PriceTest1">
+            <summary>
+            Test with Brobizz discount
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.LicenseplateFunctionalityTests.CheckAndCreateCarTest">
+            <summary>
+            This test is for a longer than 7 character licenseplate of car.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.LicenseplateFunctionalityTests.CheckAndCreateCarTest1">
+            <summary>
+            This test is for 7 character licenseplate of car.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.LicenseplateFunctionalityTests.CheckAndCreateMCTest">
+            <summary>
+             This test is for a longer than 7 character licenseplate of MC.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.LicenseplateFunctionalityTests.CheckAndCreateMCTest1">
+            <summary>
+            This test is for 7 character licenseplate of MC
+            </summary>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.Tests.MCTests">
+            <summary>
+            Tests for MC class methods
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.MCTests.PriceTest">
+            <summary>
+            Test with no Brobizz
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.MCTests.VehicleTypeTest">
+            <summary>
+            Test to check vehicle type for MC
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Tests.MCTests.PriceTest1">
+            <summary>
+            Test with Brobizz discount
+            </summary>
+        </member>
+    </members>
+</doc>

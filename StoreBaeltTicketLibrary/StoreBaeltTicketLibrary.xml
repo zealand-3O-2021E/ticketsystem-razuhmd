@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoreBaeltTicketLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:StoreBaeltTicketLibrary.WeekendDiscountForCar">
+            <summary>
+            Weekend discount class only for Car 
+            </summary>
+        </member>
+        <member name="M:StoreBaeltTicketLibrary.WeekendDiscountForCar.#ctor(System.Boolean)">
+            <summary>
+            Constructor to initialize the property
+            </summary>
+            <param name="weekend"></param>
+        </member>
+        <member name="M:StoreBaeltTicketLibrary.WeekendDiscountForCar.#ctor">
+            <summary>
+            Empty constructor
+            </summary>
+        </member>
+        <member name="M:StoreBaeltTicketLibrary.WeekendDiscountForCar.GetWeekendBrobizzPrice">
+            <summary>
+            Method to return the price after weekend discount and Brobizz discount
+            </summary>
+            <returns>double</returns>
+        </member>
+        <member name="M:StoreBaeltTicketLibrary.WeekendDiscountForCar.GetWeekendNoBrobizzPrice">
+            <summary>
+            Method to return the price after only weekend discount
+            </summary>
+            <returns>double</returns>
+        </member>
+    </members>
+</doc>
