@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryTicketSystem
 {
+    /// <summary>
+    /// brobooz
+    /// </summary>
     public class Brobizz
     {
         public bool MyBrobizz { get; set; }
@@ -23,7 +26,8 @@ namespace ClassLibraryTicketSystem
         /// Empty Constructor
         /// </summary>
         public Brobizz()
-        {
+        {///
+            //razu
         }
     }
 }

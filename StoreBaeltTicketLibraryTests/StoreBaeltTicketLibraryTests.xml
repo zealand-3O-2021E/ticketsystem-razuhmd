@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoreBaeltTicketLibraryTests</name>
+    </assembly>
+    <members>
+        <member name="M:StoreBaeltTicketLibrary.Tests.WeekendDiscountForCarTests.GetWeekendBrobizzPriceTest">
+            <summary>
+            Test for the method to get the price after weekend and Brobizz discount
+            </summary>
+        </member>
+        <member name="M:StoreBaeltTicketLibrary.Tests.WeekendDiscountForCarTests.GetWeekendNoBrobizzPriceTest">
+            <summary>
+            Test for the method to get the price after only weekend discount
+            </summary>
+        </member>
+    </members>
+</doc>

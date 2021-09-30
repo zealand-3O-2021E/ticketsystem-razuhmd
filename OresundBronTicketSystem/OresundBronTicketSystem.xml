@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OresundBronTicketSystem</name>
+    </assembly>
+    <members>
+        <member name="T:OresundBronTicketSystem.OresundCar">
+            <summary>
+            The OresundCar class inherites from VehicleBaseClass 
+            </summary>
+        </member>
+        <member name="M:OresundBronTicketSystem.OresundCar.#ctor">
+            <summary>
+            Empty constructor
+            </summary>
+        </member>
+        <member name="M:OresundBronTicketSystem.OresundCar.#ctor(System.String,System.DateTime)">
+            <summary>
+            Constructor to initialize all the properties
+            </summary>
+            <param name="licenseplate">Initializes Licenseplate property</param>
+            <param name="date">Initializes Date property</param>
+        </member>
+        <member name="M:OresundBronTicketSystem.OresundCar.Price(ClassLibraryTicketSystem.Brobizz)">
+            <summary>
+            Price() method returns a regular price 410. Discount applies for Brobizz
+            </summary>
+            <returns>Double</returns>
+        </member>
+        <member name="M:OresundBronTicketSystem.OresundCar.VehicleType">
+            <summary>
+            VehicleType() method returns "Oresund car"
+            </summary>
+            <returns>String</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:OresundBronTicketSystem.OresundMC" -->
+        <member name="M:OresundBronTicketSystem.OresundMC.#ctor">
+            <summary>
+            Empty constructor
+            </summary>
+        </member>
+        <member name="M:OresundBronTicketSystem.OresundMC.#ctor(System.String,System.DateTime)">
+            <summary>
+            Constructor to initialize all the properties
+            </summary>
+            <param name="licenseplate">Initializes Licenseplate property</param>
+            <param name="date">Initializes Date property</param>
+        </member>
+        <member name="M:OresundBronTicketSystem.OresundMC.Price(ClassLibraryTicketSystem.Brobizz)">
+            <summary>
+            Price() method returns a regular price 210. Discount applies for Brobizz
+            </summary>
+            <returns>Double</returns>
+        </member>
+        <member name="M:OresundBronTicketSystem.OresundMC.VehicleType">
+            <summary>
+            VehicleType() method returns "Oresund MC"
+            </summary>
+            <returns>String</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OresundBronTicketSystemTests</name>
+    </assembly>
+    <members>
+        <member name="T:OresundBronTicketSystem.Tests.OresundCarTests">
+            <summary>
+            Tests for Oresund Car class methods
+            </summary>
+        </member>
+        <member name="M:OresundBronTicketSystem.Tests.OresundCarTests.PriceTest">
+            <summary>
+            Test with no Brobizz
+            </summary>
+        </member>
+        <member name="M:OresundBronTicketSystem.Tests.OresundCarTests.VehicleTypeTest">
+            <summary>
+            Method to test the type of the vehicle
+            </summary>
+        </member>
+        <member name="M:OresundBronTicketSystem.Tests.OresundCarTests.PriceTest1">
+            <summary>
+            Test with Brobizz discount
+            </summary>
+        </member>
+        <member name="T:OresundBronTicketSystem.Tests.OresundMCTests">
+            <summary>
+            Tests for Oresund MC class methods
+            </summary>
+        </member>
+        <member name="M:OresundBronTicketSystem.Tests.OresundMCTests.PriceTest">
+            <summary>
+            Test with no Brobizz
+            </summary>
+        </member>
+        <member name="M:OresundBronTicketSystem.Tests.OresundMCTests.VehicleTypeTest">
+            <summary>
+            Test to check vehicle type for Oresund MC
+            </summary>
+        </member>
+        <member name="M:OresundBronTicketSystem.Tests.OresundMCTests.PriceTest1">
+            <summary>
+            Test with Brobizz discount
+            </summary>
+        </member>
+    </members>
+</doc>
