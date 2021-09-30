@@ -26,7 +26,8 @@ namespace ClassLibraryTicketSystem
         /// Empty Constructor
         /// </summary>
         public Brobizz()
-        {
+        {///
+            //razu
         }
     }
 }
